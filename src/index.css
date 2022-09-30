@@ -1,3 +1,5 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap'); */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* fontlink{
+     color:"#2B4368";
+     font-size 20px;
+     /* fontStyle:'Hanalei Fill' */
+.mystyle:hover {
+  background-color: #2EE59D;
+  box-shadow: 10px 15px 20px rgba(46, 148, 107, 0.4);
+  color: #fff;
+  transform: translateY(1px);
+}
+.mystyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #29d9c8;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 10px 20px 30px;
+  height: 20px;
+  width: 190px;
+  border: #29d9c8;
+  padding: 20px 20px 20px 20px ;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+}
+.tapcheck-direct { 
+  color: white;
+  /* line-height: 1.6em; */
+  background-image: linear-gradient(165deg, #47bdee, #29D9C8);
+  width: 70px;
+  border-radius: 13px 0px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top:-25px;
+}
+.fontlink{
+  color:#203961;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(to bottom left, #33ccff 0%, #ccffff 100%);
+  padding:20px;
+  font-size:20px;
+  flex:1;
+  padding-left:150px;
+}
+.login{
+  margin-left:610px;
+  margin-top:200px;
+  text-decoration:none;
+   background:#29d9c8;
+   color: white;
+   border-radius: 10px;
+  /* margin: 10px 10px 20px 30px; */
+  padding: 10px 30px;
+  height: 20px;
+  width: 190px;
+}
+.login:hover{ 
+    transform: translateY(1px);
+    transition: all ease 200ms;
+    background: linear-gradient(to right, #00cc99 0%, #3AAEFF 100%);
+    box-shadow: 5px 15px 20px rgba(120, 122, 122, 0.4);
+    
+}
+.mainStyle{
+  font-size:30px;
+  margin:30px; 
+  /* background-color: #FF6666; */
+  background:linear-gradient(to top left, #ccffff 0%, #ffffff 100%);
+  height:520px;
+  flex:1;
+  align-items:center;
+  justify-content:center;
 }
